@@ -1,7 +1,8 @@
 body {
     font-family: Georgia, "Times New Roman", Times, serif;
-    background-image: url("image.jpg");
+    background-image: url('https://cdn.pixabay.com/photo/2012/04/14/16/37/sky-34536_1280.png');
     background-size: 100%;
+    color: white;
   }
   .openn-source {
     max-width: 800px;
@@ -10,9 +11,11 @@ body {
   .weather-app {
     max-width: 800px;
     border: 5px inset;
+    border-radius: 20px;
     margin: 0 auto;
     padding: 50px;
     display: block;
+    color: white !important;
   }
   #description {
     text-transform: capitalize;
@@ -75,4 +78,5 @@ body {
   }
   .col-2 {
     border: 2px inset;
+    border-radius: 20px;
   }
