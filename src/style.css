@@ -1,0 +1,78 @@
+body {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    background-image: url("image.jpg");
+    background-size: 100%;
+  }
+  .openn-source {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  .weather-app {
+    max-width: 800px;
+    border: 5px inset;
+    margin: 0 auto;
+    padding: 50px;
+    display: block;
+  }
+  #description {
+    text-transform: capitalize;
+  }
+  .weather-temperature img {
+    margin: 0px;
+    padding: 0;
+  }
+  strong {
+    margin: 0;
+  }
+  h1 {
+    color: rgb(29, 15, 15);
+    font-size: 30px;
+  }
+  ul {
+    padding: 0;
+    margin: 0;
+  }
+  li {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    font-size: 20px;
+    color: rgb(46, 45, 45);
+  }
+  a {
+    text-decoration: none;
+  }
+  
+  .weather-app strong {
+    font-size: 55px;
+    padding: 20px 0px 20px 20px;
+  }
+  #temp {
+    padding-left: 0;
+  }
+  .units {
+    position: relative;
+    font-size: 15px;
+    padding-left: 0;
+    bottom: -40px;
+    margin-left: 10px;
+  }
+  .active {
+    color: black;
+  }
+  .active:hover {
+    cursor: default;
+  }
+  .weather-forecast-date {
+    font-size: 20px;
+  }
+  .weather-forecast-temperatures {
+    font-size: 17px;
+  }
+  .weather-forecast-min {
+    font-size: 17px;
+    color: rgb(65, 64, 64);
+  }
+  .col-2 {
+    border: 2px inset;
+  }
